@@ -1,0 +1,26 @@
+# Lean 4 build artifacts
+build/
+.lake/
+*.olean
+*.ilean
+*.trace
+*.hash
+*.c
+*.o
+*.dynlib
+*.toolchain
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache (for regeneration scripts)
+__pycache__/
+*.pyc

@@ -1,0 +1,34 @@
+/- MiniSpectralTheoryPDE: Spectral Theory of PDE
+Zero-dependency Lean 4 kernel (Nat, Rat, List, Fin). Covers L1-L9 across 30+ modules. -/
+import MiniSpectralTheoryPDE.Core.Basic
+import MiniSpectralTheoryPDE.Core.Spectrum
+import MiniSpectralTheoryPDE.Core.Operators
+import MiniSpectralTheoryPDE.Core.MatrixOps
+import MiniSpectralTheoryPDE.Core.LinearAlgebra
+import MiniSpectralTheoryPDE.Theorems.SpectralTheorem
+import MiniSpectralTheoryPDE.Theorems.Variational
+import MiniSpectralTheoryPDE.Theorems.Perturbation
+import MiniSpectralTheoryPDE.Theorems.SpecialMatrices
+import MiniSpectralTheoryPDE.Theorems.IterativeMethods
+import MiniSpectralTheoryPDE.Theorems.PDEDiscretization
+import MiniSpectralTheoryPDE.Theorems.Optimization
+import MiniSpectralTheoryPDE.Theorems.EigenvalueBounds
+import MiniSpectralTheoryPDE.Theorems.NumericalLinearAlgebra
+import MiniSpectralTheoryPDE.ProofMethods.RayleighQuotient
+import MiniSpectralTheoryPDE.ProofMethods.SeparationOfVariables
+import MiniSpectralTheoryPDE.ProofMethods.Minimax
+import MiniSpectralTheoryPDE.ProofMethods.EigenMethods
+import MiniSpectralTheoryPDE.Examples.GraphLaplacian
+import MiniSpectralTheoryPDE.Examples.SturmLiouville
+import MiniSpectralTheoryPDE.Examples.WaveEquation
+import MiniSpectralTheoryPDE.Examples.NumericalExperiments
+import MiniSpectralTheoryPDE.Applications.QuantumMechanics
+import MiniSpectralTheoryPDE.Applications.SignalProcessing
+import MiniSpectralTheoryPDE.Applications.ControlTheory
+import MiniSpectralTheoryPDE.Applications.DataScience
+import MiniSpectralTheoryPDE.Advanced.SpectralGeometry
+import MiniSpectralTheoryPDE.Advanced.RandomMatrixTheory
+import MiniSpectralTheoryPDE.Advanced.SpectralClustering
+import MiniSpectralTheoryPDE.Advanced.QuantumChaos
+import MiniSpectralTheoryPDE.Advanced.InverseProblems
+import MiniSpectralTheoryPDE.Research.Frontiers
