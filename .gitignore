@@ -24,3 +24,7 @@ Thumbs.db
 # Python cache (for regeneration scripts)
 __pycache__/
 *.pyc
+
+nul
+
+...
